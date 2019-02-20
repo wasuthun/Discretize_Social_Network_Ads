@@ -12,7 +12,7 @@ import pandas as pd
 dataset = pd.read_csv('/Users/johnpaul/Downloads/Social_Network_Ads.csv')
 
 print(dataset)
-X = np.ravel(dataset.iloc[:, [3, 3]].values)
+X = np.ravel(dataset.iloc[:, 3].values)
 def discretize(data, bins):
     split = np.array_split(np.sort(data), bins)
     cutoffs = [x[-1] for x in split]
