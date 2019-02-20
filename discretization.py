@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 Created on Tue Feb 19 18:42:24 2019
-
+discretize by EstimatedSalary
 @author: johnpaul
 """
 
